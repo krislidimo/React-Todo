@@ -28,15 +28,18 @@ span {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 340px;
+	width: 80%;
+	max-width: 600px;
 	height: 100%;
 	border: 5px solid #39393A;
 	border-radius: 5%;
 	background-color: #FFFFFF;
-	padding: 30px 0;
+	padding: 28px 0 30px 0;
+	margin: 0 auto;
 }
 
 .app h2 {
+	margin-top: 40px;
 }
 
 .todo-form {
@@ -49,7 +52,7 @@ span {
 
 .todo-form input {
 	width: 100%;
-	height: 20px;
+	height: 27px;
 }
 
 .buttons {
@@ -86,14 +89,12 @@ span {
 .todo-list {
 	align-self: flex-start;
 	margin-left: 20%;
-	/*list-style-type: none;*/
-	/*margin*/
-
 }
 
 .task {
 	margin: 10px 0;
 	width: 100%;
+	font-size: 1.4rem;
 }
 
 .task.finished {

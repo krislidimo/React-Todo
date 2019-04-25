@@ -66,6 +66,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className='app'>
+        <i class="fas fa-rocket fa-7x"></i>
         <h2>Welcome to your Todo App!</h2>
         <TodoList todoData={this.state.todoData} toggleComplete={this.toggleComplete} />
         <TodoForm addTodo={this.addTodo} clearCompleted={this.clearCompleted} />
