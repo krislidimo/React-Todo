@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+span {
+  color: #39393A;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	max-width: 600px;
+	height: 100%;
+	border: 5px solid #39393A;
+	border-radius: 5%;
+	background-color: #FFFFFF;
+	padding: 28px 0 30px 0;
+	margin: 0 auto;
+}
+
+.app h2 {
+	margin-top: 40px;
+}
+
+.todo-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	width: 60%;
+}
+
+.todo-form input {
+	width: 100%;
+	height: 27px;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.buttons button {
+	border: 2px solid white;
+	border-radius: 30px;
+	color: white;
+	background-color: #39393A;
+	padding: 8px 0;
+}
+
+.buttons button:hover {
+	border: 2px solid #39393A;
+	border-radius: 30px;
+	color: #39393A;
+	background-color: white;
+	padding: 8px 0;
+}
+
+.buttons .add-todo {
+ 	width: 60%;
+}
+
+.buttons .clear-completed {
+ 	width: 38%;
+}
+
+.todo-list {
+	align-self: flex-start;
+	margin-left: 20%;
+}
+
+.task {
+	margin: 10px 0;
+	width: 100%;
+	font-size: 1.4rem;
+}
+
+.task.finished {
+	text-decoration: line-through;
+}
